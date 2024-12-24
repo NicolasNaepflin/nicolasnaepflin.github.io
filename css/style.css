@@ -16,6 +16,9 @@
 
 .cursive-text {
 	font-style: italic;
+	text-align: left;
+	padding: 0;
+	margin: 0;
   }
 
 .dark-mode {

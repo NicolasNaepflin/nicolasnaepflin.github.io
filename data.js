@@ -134,14 +134,16 @@ export const projects = {
     // },
   ],
   freelanceProjects: [
-    // {
-    //   projectName: "SnylloAir.com",
-    //   image: "images/snylloair.png",
-    //   summary:
-    //     "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-    //   preview: "https://www.snylloair.com/",
-    //   techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
-    // },
+    {
+      projectName: "SnylloAir.com",
+      image: "images/osmolyte_paper.png",
+      summary:
+        `Monika Pepelnjak, Britta Velten, <u>Nicolas Näpflin</u>, et al.<br>
+        <span class="cursive-text">Nat Chem Biol</span> (2024) <br>
+    Global in situ analysis of osmolyte mechanisms in regulating protein thermal stability and aggregation`,
+      preview: "https://doi.org/10.1038/s41589-024-01568-7",
+      techStack: ["Mass spectormetry", "Mechanism of action", "Protein aggregation", "Proteomics", "Small molecules"],
+    },
     // {
     //   projectName: "Delivery+",
     //   image: "images/AM-Logo-.png",
