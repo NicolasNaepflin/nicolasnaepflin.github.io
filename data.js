@@ -304,10 +304,10 @@ export const footer = [
     //     text: "Twitter",
     //     link: "https://twitter.com/thesigmakid",
     //   },
-      {
-        text: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/r194dME8y",
-      },
+      // {
+      //   text: "Buy me a coffee",
+      //   link: "https://www.buymeacoffee.com/r194dME8y",
+      // },
       {
         text: "Github/nicolasnaepflin.github.io",
         link: "https://github.com/nicolasnaepflin/nicolasnaepflin.github.io",
