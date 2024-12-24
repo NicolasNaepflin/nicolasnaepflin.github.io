@@ -90,14 +90,14 @@ export const projects = {
     // },
   ],
   softwareProjects: [
-    // {
-    //   projectName: "Pizza Ordering ChatBot",
-    //   image: "images/pizzaorderchatbot.png",
-    //   summary:
-    //     "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
-    //   preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-    //   techStack: ["Dailogflow", "Firebase"],
-    // },
+    {
+      projectName: "Pizza Ordering ChatBot",
+      image: "",
+      summary:
+        `Christopher Schubert, Bidong D. Nguyen, Andreas Sichert, <u>Nicolas Näpflin</u>, et al. <span class="cursive-text" style="margin-bottom: 0px">bioRxiv</span> (2024)`,
+      preview: "https://doi.org/10.1101/2024.08.06.606610",
+      techStack: [],
+    },
     // {
     //   projectName: "WhatsApp-Bot",
     //   image: "images/whatsappbot.jpg",
@@ -116,14 +116,15 @@ export const projects = {
     // },
   ],
   androidProjects: [
-    // {
-    //   projectName: "NITW-CSE",
-    //   image: "images/nitwcse.jpg",
-    //   summary:
-    //     "The Application display details of Department courses, reference books, research, publication and faculty profile.",
-    //   preview: "https://github.com/vinaysomawat/NITW-CSE",
-    //   techStack: ["JAVA", "XML", "Android"],
-    // },
+    {
+      projectName: "NITW-CSE",
+      image: "images/startcodon_paper.png",
+      summary:
+       `Yassine Cherrak, Miguel A. Salazar, <u>Nicolas Näpflin</u>, et al.<br>
+        <span class="cursive-text">Nature Microbiology</span> (2024)`,
+      preview: "https://doi.org/10.1038/s41564-024-01775-x",
+      techStack: ["bacterial physiology", "microbial communities"],
+    },
     // {
     //   projectName: "CareerHigh-App",
     //   image: "images/carrerhigh.png",
@@ -139,7 +140,7 @@ export const projects = {
       image: "images/osmolyte_paper.png",
       summary:
         `Monika Pepelnjak, Britta Velten, <u>Nicolas Näpflin</u>, et al.<br>
-        <span class="cursive-text">Nat Chem Biol</span> (2024) <br>
+        <span class="cursive-text">Nature Chemical Biology</span> (2024) <br>
     Global in situ analysis of osmolyte mechanisms in regulating protein thermal stability and aggregation`,
       preview: "https://doi.org/10.1038/s41589-024-01568-7",
       techStack: ["Mass spectormetry", "Mechanism of action", "Protein aggregation", "Proteomics", "Small molecules"],
