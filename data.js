@@ -158,13 +158,13 @@ export const projects = {
 
 export const experience = [
   {
-    title: "Marroni (chestnut) map of Zürich",
+    title: "Marroni map of Zürich",
     duration: "2024",
-    subtitle: "Map showing all public chestnut trees in Zürich",
+    subtitle: "Map showing all public chestnut (swiss-german for Marroni) trees in Zürich",
     details: ["https://marronikarte.netlify.app/"],
     preview: "https://marronikarte.netlify.app/",
     tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-    icon: "truck ",
+    icon: "tree ",
   },
   // {
   //   title: "Biofourmis India Private Limited",
@@ -318,8 +318,8 @@ export const footer = [
   {
     label: "copyright-text",
     data: [
-      "Made with &hearts; by Vinay Somawat.",
-      "&copy; No Copyrights. Feel free to use this template.",
+      // "Made with &hearts; by Vinay Somawat.",
+      // "&copy; No Copyrights. Feel free to use this template.",
     ],
   },
 ];
