@@ -319,7 +319,20 @@ function populateExp_Edu(items, id) {
     for (let j = 0; j < items[i].details.length; j++) {
       let pTimelineText = document.createElement("p");
       pTimelineText.className = "timeline-text";
-      pTimelineText.innerHTML = "&blacksquare; " + items[i].details[j];
+    
+      // Check if the detail is a URL
+      const detail = items[i].details[j];
+      if (detail.startsWith("http://") || detail.startsWith("https://")) {
+        let link = document.createElement("a");
+        link.href = detail;
+        link.target = "_blank"; // Open in a new tab
+        link.rel = "noopener noreferrer"; // For security
+        link.textContent = detail; // Text of the link
+        pTimelineText.appendChild(link);
+      } else {
+        pTimelineText.innerHTML = "&blacksquare; " + detail; // Treat as regular text
+      }
+    
       divTimelineLabel.append(pTimelineText);
     }
 
