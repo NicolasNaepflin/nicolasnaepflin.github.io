@@ -140,8 +140,7 @@ export const projects = {
       image: "images/osmolyte_paper.png",
       summary:
         `Monika Pepelnjak, Britta Velten, <u>Nicolas Näpflin</u>, et al.<br>
-        <span class="cursive-text">Nature Chemical Biology</span> (2024) <br>
-    Global in situ analysis of osmolyte mechanisms in regulating protein thermal stability and aggregation`,
+        <span class="cursive-text">Nature Chemical Biology</span> (2024)`,
       preview: "https://doi.org/10.1038/s41589-024-01568-7",
       techStack: ["Mass spectormetry", "Mechanism of action", "Protein aggregation", "Proteomics", "Small molecules"],
     },
@@ -160,10 +159,10 @@ export const experience = [
   {
     title: "Marroni map of Zürich",
     duration: "2024",
-    subtitle: "Map showing all public chestnut (swiss-german for Marroni) trees in Zürich",
+    subtitle: "Map showing all public chestnut (swiss-german: Marroni) trees in Zürich",
     details: ["https://marronikarte.netlify.app/"],
     preview: "https://marronikarte.netlify.app/",
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+    tags: [],
     icon: "tree ",
   },
   // {
@@ -238,7 +237,10 @@ export const education = [
     title: "MSc ETH Biology",
     duration: "2020 - 2022",
     subtitle: "Institute of Systems Biology, ETH Zürich",
-    details: ["5.74 / 6 GPA"],
+    details: ["5.74 / 6 GPA", 'Master Thesis: Proteomic analysis of heat-stress in a cold-adapted bacterium',
+      'Research project I: Evaluation of 16S rRNA gene reconstruction after PCR amplification',
+      'Research project II: Effect of ATP on proteome-wide thermal stability'
+    ],
     tags: [
       "LC-MS based Proteomics",
       "Microbiome composition and function",
