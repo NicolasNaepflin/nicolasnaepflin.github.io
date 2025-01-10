@@ -26,6 +26,14 @@
 	color: white;
   }
 
+.bottom {
+	position: absolute;
+    bottom: 0; /* set the bottom to 0*/
+	left: 50%;
+	transform: translate(-50%, -50%);
+  	margin: 0 auto;
+}
+
 /* =======================================================
 *
 * 	Template Style 
