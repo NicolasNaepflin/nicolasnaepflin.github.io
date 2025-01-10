@@ -307,12 +307,12 @@ export const footer = [
     //     text: "Twitter",
     //     link: "https://twitter.com/thesigmakid",
     //   },
-      // {
-      //   text: "Buy me a coffee",
-      //   link: "https://www.buymeacoffee.com/r194dME8y",
-      // },
       {
-        text: "Github/nicolasnaepflin.github.io",
+        text: "bluesky",
+        link: "https://bsky.app/profile/nicolasnaepflin.bsky.social",
+      },
+      {
+        text: "github/nicolasnaepflin.github.io",
         link: "https://github.com/nicolasnaepflin/nicolasnaepflin.github.io",
       },
     ],
