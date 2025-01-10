@@ -301,6 +301,6 @@ function detectDayNightMode() {
   if (isDayTime === true) {
     // do nothing
   } else {
-    enableDarkMode();
+    // enableDarkMode();
   }
 }
