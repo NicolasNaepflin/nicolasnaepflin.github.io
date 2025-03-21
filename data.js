@@ -91,12 +91,20 @@ export const projects = {
   ],
   softwareProjects: [
     {
-      projectName: "Pizza Ordering ChatBot",
-      image: "",
+      projectName: "pangenome_paper",
+      image: "images/pangenome_paper.png",
       summary:
-        `Christopher Schubert, Bidong D. Nguyen, Andreas Sichert, <u>Nicolas Näpflin</u>, et al. <span class="cursive-text" style="margin-bottom: 0px">bioRxiv</span> (2024)`,
-      preview: "https://doi.org/10.1101/2024.08.06.606610",
-      techStack: [],
+        `<u>Nicolas Näpflin</u>*, Christopher Schubert* et al.<br> <span class="cursive-text">bioRxiv</span> (2025)`,
+      preview: "https://doi.org/10.1101/2025.02.12.637621",
+      techStack: ["pan-genome", "nutrient exploitation",],
+    },
+    {
+      projectName: "Pizza Ordering ChatBot",
+      image: "images/monosaccharide_paper.png",
+      summary:
+        `Christopher Schubert, Bidong D. Nguyen, Andreas Sichert, <u>Nicolas Näpflin</u>, et al. <span class="cursive-text" style="margin-bottom: 0px">Nature Communication</span> (2025)`,
+      preview: "https://doi.org/10.1038/s41467-025-56890-y",
+      techStack: ["bacterial infection", "bacteriology","pathogens"],
     },
     // {
     //   projectName: "WhatsApp-Bot",
@@ -312,8 +320,8 @@ export const footer = [
         link: "https://bsky.app/profile/nicolasnaepflin.bsky.social",
       },
       {
-        text: "github/nicolasnaepflin.github.io",
-        link: "https://github.com/nicolasnaepflin/nicolasnaepflin.github.io",
+        text: "github/nicolasnaepflin",
+        link: "https://github.com/NicolasNaepflin",
       },
     ],
   },
