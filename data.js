@@ -275,14 +275,14 @@ export const footer = [
   {
     label: "Links",
     data: [
-    //   {
-    //     text: "Linkedin",
-    //     link: "https://www.linkedin.com/in/vinaysomawat/",
-    //   },
-    //   {
-    //     text: "Twitter",
-    //     link: "https://twitter.com/thesigmakid",
-    //   },
+      {
+        text: "Mail",
+        link: "mailto:naepflin.nicolas@gmail.com",
+      },
+      {
+        text: "ORCID",
+        link: "https://orcid.org/0000-0001-6845-7400",
+      },
       {
         text: "bluesky",
         link: "https://bsky.app/profile/nicolasnaepflin.bsky.social",
