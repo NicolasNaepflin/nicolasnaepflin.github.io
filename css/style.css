@@ -731,30 +731,6 @@ body.offcanvas .colorlib-nav-toggle {
 	margin-bottom: 50px;
 }
 
-.project {
-	position: relative;
-	max-width: 900px;
-	margin: 0 auto 30px auto;
-	overflow: hidden;
-	background: #fff;
-	border-radius: 4px;
-}
-
-.project-image {
-	float: left;
-}
-/* 
-.project-card {
-	height: 150px;
-} */
-
-.project-info {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	margin-left: 300px;
-	padding: 15px;
-}
 
 .project-info h3 {
 	font-size: 1.5em;
@@ -1433,7 +1409,7 @@ body.offcanvas .colorlib-nav-toggle {
 	color: #2c98f0;
 }
 
-.project {
+/* .project {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -1442,7 +1418,7 @@ body.offcanvas .colorlib-nav-toggle {
 	width: 100%;
 	display: block;
 	margin-bottom: 30px;
-}
+} */
 .project .desc {
 	position: absolute;
 	top: 0;
@@ -1546,6 +1522,21 @@ body.offcanvas .colorlib-nav-toggle {
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 }
+
+@media screen and (max-width: 768px) {
+	.project {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	.project-image img {
+		max-height: 200px;
+	}
+	.project-info {
+		text-align: center;
+	}
+}
+
 
 .btn-load-more {
 	width: 100%;
@@ -2093,12 +2084,17 @@ ul {
  -----------------------------*/
 
 .submenu {
-	display: none;
+	display: block;
+	align-items: center;
 	background: #f9bf3f;
-	font-size: 14px;
-	padding-left: 0px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	border: none; /*1px solid #000; */
+	border-radius: 10px;
+	padding: 15px;
+	margin: 10px 0;
+	box-sizing: border-box;
+	gap: 20px;
+	width: 100%;
+	max-width: 100%;
 }
 
 .submenu li {
@@ -2285,4 +2281,108 @@ span {
     text-align: right;
     font-weight: 600;
 }
+
+.project {
+	display: flex;
+	align-items: center;
+	background: #f9bf3f;
+	border: none; /*1px solid #000; */
+	border-radius: 10px;
+	padding: 15px;
+	margin: 10px 0;
+	box-sizing: border-box;
+	gap: 20px;
+	width: fit-content;
+	max-width: 100%;
+}
+
+.project-image {
+	flex-shrink: 0;
+	padding: 10px;
+}
+
+.project-image img {
+	display: block;
+	max-width: 150px;
+	height: auto;
+	object-fit: contain;
+	border-radius: 6px;
+}
+
+.project-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 600px;
+	color: black;
+}
+
+.submenu a {
+	color: #2c98f0; /* Optional: keep links styled, or set to black if you prefer */
+}
+
+.submenu .project-info p {
+	color: black !important;
+}
+
+.submenu li .project-content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 20px;
+	background: #f9bf3f;
+	border-radius: 8px;
+	padding: 15px;
+	/* box-shadow: 0 0 4px rgba(0, 0, 0, 0.1); */
+  }
   
+.submenu li .project-content img {
+	flex-shrink: 0;
+	width: auto;
+	height: auto;
+	max-width: 300px;
+	max-height: 200px;
+}
+  
+.submenu li .project-content .project-text {
+	flex: 1;
+	color: black;
+}
+
+@media screen and (max-width: 1000px) {
+	.submenu li .project-content img {
+		display: none;
+	}
+}
+
+@media screen and (max-height: 768px) {
+	.submenu li .project-content img {
+		display: none;
+	}
+}
+
+
+@media screen and (max-height: 768px) {
+	#colorlib-aside {
+		overflow-y: auto;
+		max-height: 100vh; /* ensure scrolling works */
+		padding-bottom: 6em; /* space for bottom icons */
+	}
+
+	.bottom {
+		position: relative;
+		bottom: auto;
+		margin-top: 2em;
+		display: flex;
+		justify-content: center;
+		gap: 10px;
+	}
+}
+
+.accordion .link.open + .submenu {
+	display: block;
+  }
+
+  .submenu {
+	display: none;
+  }

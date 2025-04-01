@@ -60,7 +60,7 @@ export const projects = {
       projectName: "pangenome_paper",
       image: "images/pangenome_paper.png",
       summary:
-        `<u>Nicolas Näpflin</u>*, Christopher Schubert* et al.<br> <span class="cursive-text">bioRxiv</span> (2025)`,
+        `<u>Nicolas Näpflin</u>*, Christopher Schubert* et al. <span class="cursive-text">bioRxiv</span> (2025)`,
       preview: "https://doi.org/10.1101/2025.02.12.637621",
       techStack: ["pan-genome", "nutrient exploitation",],
     },
@@ -96,7 +96,7 @@ export const projects = {
       projectName: "NITW-CSE",
       image: "images/startcodon_paper.png",
       summary:
-       `Yassine Cherrak, Miguel A. Salazar, <u>Nicolas Näpflin</u>, et al.<br>
+       `Yassine Cherrak, Miguel A. Salazar, <u>Nicolas Näpflin</u>, et al. <br>
         <span class="cursive-text">Nature Microbiology</span> (2024)`,
       preview: "https://doi.org/10.1038/s41564-024-01775-x",
       techStack: ["bacterial physiology", "microbial communities"],
@@ -203,8 +203,8 @@ export const experience = [
 export const education = [
   { 
     title: "Currently: PhD student",
-    subtitle: "test",
-    duration: "2022 - Present",
+    subtitle: "Institute of Molecular Life Sciences, University of Zürich",
+    duration: "2023 - Present",
     details: [],
     tags: [],
     icon : "graduation-cap",

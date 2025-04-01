@@ -144,71 +144,54 @@ function populateSkills(items, id) {
 
 function populateProjects(items, id) {
   let projectdesign = document.getElementById(id);
-
-  let h4 = document.createElement("h4");
-  h4.className = "project-heading";
-
-  let a = document.createElement("a");
-  a.target = "_blank";
-
-  let img = document.createElement("img");
-  img.className = "img-fluid";
-
-  let divResumeContentLeft = document.createElement("div");
-  divResumeContentLeft.className = "resume-content";
-  divResumeContentLeft.id = "left-div";
-  divResumeContentLeft.append(img);
-
-  let divResumeContentRight = document.createElement("div");
-  divResumeContentRight.className = "resume-content";
-  divResumeContentRight.id = "right-div";
-
-  let p = document.createElement("p");
-  p.className = "project-description";
-
-  let divSpan = document.createElement("div");
-
-  let divSubHeading = document.createElement("div");
-  divSubHeading.className = "sub-heading";
-  divSubHeading.append(p);
-  divSubHeading.append(divSpan);
-  divResumeContentRight.append(divSubHeading);
-
-  let divResumeItem = document.createElement("div");
-  divResumeItem.className = "resume-item";
-  divResumeItem.append(divResumeContentLeft);
-  divResumeItem.append(divResumeContentRight);
-  a.append(divResumeItem);
-
-  let divProjectCard = document.createElement("div");
-  divProjectCard.className = "project-card";
-  divProjectCard.append(a);
-
-  let li = document.createElement("li");
-  li.append(divProjectCard);
-
-  let hr = document.createElement("hr");
+  projectdesign.innerHTML = ""; // clear previous content
 
   for (let i = 0; i < items.length; i++) {
-    h4.innerHTML = items[i].projectName;
-    a.href = items[i].preview;
+    const li = document.createElement("li");
 
+    const projectContent = document.createElement("div");
+    projectContent.className = "project-content";
+
+    const img = document.createElement("img");
     img.src = items[i].image;
+    img.alt = items[i].projectName;
+    img.style.maxWidth = "350px";
+    img.style.maxHeight = "200px";
+    img.style.objectFit = "contain";
 
+    const textDiv = document.createElement("div");
+    textDiv.className = "project-text";
+
+    const p = document.createElement("p");
     p.innerHTML = items[i].summary;
 
-    divSpan.innerHTML = "";
+    const link = document.createElement("a");
+    link.href = items[i].preview;
+    link.target = "_blank";
+    link.innerText = "Read more";
+
+    // Optional: add tags
+    const tagDiv = document.createElement("div");
     for (let k = 0; k < items[i].techStack.length; k++) {
-      let span = document.createElement("span");
+      const span = document.createElement("span");
       span.className = "badge badge-secondary";
-      span.innerHTML = items[i].techStack[k];
-      divSpan.append(span);
+      span.innerText = items[i].techStack[k];
+      tagDiv.appendChild(span);
     }
 
-    projectdesign.append(li.cloneNode(true));
+    textDiv.appendChild(p);
+    textDiv.appendChild(link);
+    textDiv.appendChild(tagDiv);
 
-    if (i != items.length - 1) {
-      projectdesign.append(hr.cloneNode(true));
+    projectContent.appendChild(img);
+    projectContent.appendChild(textDiv);
+
+    li.appendChild(projectContent);
+    projectdesign.appendChild(li);
+
+    if (i !== items.length - 1) {
+      const hr = document.createElement("hr");
+      projectdesign.appendChild(hr);
     }
   }
 }
