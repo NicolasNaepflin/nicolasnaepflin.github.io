@@ -1,5 +1,6 @@
 export const bio = [
-  "Hello! I'm Nicolas Näpflin, an PhD student at University of Zurich. I am passionate about microbiome research, data science and sports.",
+  "Hello! I'm Nicolas Näpflin - a PhD student at the University of Zurich exploring the microbiome through data science. I am especially interested in metagenomics, comparative genomics and microbial ecology.",
+  "Outside the lab, I enjoy running, playing volleyball and boardgames.",
   "Thanks for visiting!"
 ];
 
@@ -26,7 +27,7 @@ export const skills = [
     title: "Design",
     skillName: "Rust",
     color: "4",
-    percentage: "20",
+    percentage: "10",
   },
   // {
   //   title: "Version Control",
@@ -205,8 +206,10 @@ export const education = [
     title: "Currently: PhD student",
     subtitle: "Institute of Molecular Life Sciences, University of Zürich",
     duration: "2023 - Present",
-    details: [],
-    tags: [],
+    details: ['Understanding shared functional traits of Enterobacteriaceae',
+      'Exploring dynamics and mechanisms underlying the response of ESKAPE pathogens to antibiotics',
+    ],
+    tags: ['Metagenomics', 'Comparative genomics', 'Microbial ecology', 'Pan-genome analysis', 'Antibiotic resistance', 'Bacterial metabolism'],
     icon : "graduation-cap",
   },
   {
