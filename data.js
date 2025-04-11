@@ -30,29 +30,11 @@ export const skills = [
     percentage: "10",
   },
   // {
-  //   title: "Version Control",
-  //   skillName: "GitHub",
+  //   title: "template_title",
+  //   skillName: "template_skillName",
   //   color: "7",
   //   percentage: "70",
   // },
-  // {
-  //   title: "Tools",
-  //   skillName: "Debugging, Chrome DevTools",
-  //   color: "3",
-  //   percentage: "80",
-  // },
-//   {
-//     title: "Analytics",
-//     skillName: "CleverTap, Countly",
-//     color: "5",
-//     percentage: "50",
-//   },
-//   {
-//     title: "IDE",
-//     skillName: "VS Code",
-//     color: "6",
-//     percentage: "70",
-//   },
 ];
 
 export const projects = {
@@ -68,33 +50,17 @@ export const projects = {
   ],
   softwareProjects: [
     {
-      projectName: "Pizza Ordering ChatBot",
+      projectName: "monosacaccharide_paper",
       image: "images/monosaccharide_paper.png",
       summary:
         `Christopher Schubert, Bidong D. Nguyen, Andreas Sichert, <u>Nicolas Näpflin</u>, et al. <span class="cursive-text" style="margin-bottom: 0px">Nature Communication</span> (2025)`,
       preview: "https://doi.org/10.1038/s41467-025-56890-y",
       techStack: ["bacterial infection", "bacteriology","pathogens"],
     },
-    // {
-    //   projectName: "WhatsApp-Bot",
-    //   image: "images/whatsappbot.jpg",
-    //   summary:
-    //     "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-    //   preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-    //   techStack: ["Selenium", "Chrome Webdriver", "Python"],
-    // },
-    // {
-    //   projectName: "Bill Generator",
-    //   image: "images/billgenerator.png",
-    //   summary:
-    //     "GUI to transfer data to excel sheets and generate bills on the local shops.",
-    //   preview: "https://github.com/vinaysomawat/Bill-Generator",
-    //   techStack: ["Tkinter", "Openxlpy", "Python"],
-    // },
   ],
   androidProjects: [
     {
-      projectName: "NITW-CSE",
+      projectName: "startcodon_paper",
       image: "images/startcodon_paper.png",
       summary:
        `Yassine Cherrak, Miguel A. Salazar, <u>Nicolas Näpflin</u>, et al. <br>
@@ -102,18 +68,10 @@ export const projects = {
       preview: "https://doi.org/10.1038/s41564-024-01775-x",
       techStack: ["bacterial physiology", "microbial communities"],
     },
-    // {
-    //   projectName: "CareerHigh-App",
-    //   image: "images/carrerhigh.png",
-    //   summary:
-    //     "The Application display the webpages of website careerhigh.in in android devices.",
-    //   preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-    //   techStack: ["JAVA", "XML", "Android"],
-    // },
   ],
   freelanceProjects: [
     {
-      projectName: "SnylloAir.com",
+      projectName: "osmolyte_paper",
       image: "images/osmolyte_paper.png",
       summary:
         `Monika Pepelnjak, Britta Velten, <u>Nicolas Näpflin</u>, et al.<br>
@@ -121,14 +79,6 @@ export const projects = {
       preview: "https://doi.org/10.1038/s41589-024-01568-7",
       techStack: ["Mass spectormetry", "Mechanism of action", "Protein aggregation", "Proteomics", "Small molecules"],
     },
-    // {
-    //   projectName: "Delivery+",
-    //   image: "images/AM-Logo-.png",
-    //   summary: "Android Application to display website in android devices.",
-    //   preview:
-    //     "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-    //   techStack: ["Android", "JAVA", "Play Store"],
-    // },
   ],
 };
 
@@ -142,63 +92,6 @@ export const experience = [
     tags: [],
     icon: "tree ",
   },
-  // {
-  //   title: "Biofourmis India Private Limited",
-  //   duration: "April 2022 - Jul 2023",
-  //   subtitle: "Software Engineer",
-  //   details: [
-  //     `Implemented microfrontends using the Module Federation Plugin in Angular.
-  //           Rendered components from remote modules/repositories, enabling a modular and scalable architecture`,
-  //     `Upgraded application with a dynamic base URL for flexible operation across multiple regions and verticals, leading to
-  //           recognition with the Biofourmis Bravo award in Q1, 2023.`,
-  //     `Implemented RxState for managing local state in components, resulting in elegant and reactive facades.`,
-  //     `Utilized Twilio-Video for group video call rooms and Countly for Web Analytics.`,
-  //     `Integrated NGXS WebSocket, enhancing state management and replacing legacy service injections.`,
-  //     `Implemented extensive RxJS usage for reactive programming, resulting in efficient data handling, improved state
-  //           management, and enhanced application performance.`,
-  //     `Dramatically optimized load time and performance through code splitting, lazy loading, caching, and preload`,
-  //     `Enhanced video call experience by implementing real-time switching of I/O devices and audio level indicators,
-  //           resulting in reduced audio issues and increased user satisfaction.`,
-  //     `Owned and led successful Angular application upgrades from version 12 to 13 and 14, improving performance
-  //           and enhancing features.`,
-  //   ],
-  //   tags: [
-  //     "JavaScript",
-  //     "Angular",
-  //     "RxJS",
-  //     "NGXS",
-  //     "TypeScript",
-  //     "RxState",
-  //     "Webpack",
-  //     "Optimization",
-  //   ],
-  //   icon: "heartbeat",
-  // },
-  // {
-  //   title: "Novopay Solutions Private Limited",
-  //   duration: "June 2020 - April 2022",
-  //   subtitle: "Software Engineer",
-  //   details: [
-  //     `Implemented AePS Services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements,
-  //           and Money transfer.`,
-  //     `Implemented QR Code integration for retailer wallet money loading, Clevertap events for user action tracking,
-  //           Freshdesk ticketing, Chatbot services, and Retailer onboarding/admin interfaces.`,
-  //     `Developed retailer QR code system for seamless money loading into wallets, resulting in improved user transactions.`,
-  //     `Achieved 70 percent code coverage of the entire application by writing unit tests for legacy code.`,
-  //   ],
-  //   tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-  //   icon: "qrcode",
-  // },
-  // {
-  //   title: "ThinkPedia LLP",
-  //   duration: "May 2019 - June 2019",
-  //   subtitle: "SDE Intern",
-  //   details: [
-  //     `Developed a customer web application for social media management, supporting the advertisement domain.`,
-  //   ],
-  //   tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
-  //   icon: "group",
-  // },
 ];
 
 export const education = [
@@ -241,40 +134,6 @@ export const education = [
 ];
 
 export const footer = [
-//   {
-//     label: "Dev Profiles",
-//     data: [
-//       {
-//         text: "Stackoverflow",
-//         link: "https://stackoverflow.com/users/8461233/vinay-somawat",
-//       },
-//       {
-//         text: "GitHub",
-//         link: "https://github.com/vinaysomawat",
-//       },
-//       {
-//         text: "LeetCode",
-//         link: "https://leetcode.com/somawatvinay/",
-//       },
-//     ],
-//   },
-//   {
-//     label: "Resources",
-//     data: [
-//       {
-//         text: "Enable Dark/Light Mode",
-//         func: "enableDarkMode()",
-//       },
-//       {
-//         text: "Print this page",
-//         func: "window.print()",
-//       },
-//       {
-//         text: "Clone this page",
-//         link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
-//       },
-//     ],
-//   },
   {
     label: "Links",
     data: [
@@ -299,8 +158,7 @@ export const footer = [
   {
     label: "copyright-text",
     data: [
-      // "Made with &hearts; by Vinay Somawat.",
-      // "&copy; No Copyrights. Feel free to use this template.",
+      
     ],
   },
 ];
