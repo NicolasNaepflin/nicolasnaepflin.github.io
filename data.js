@@ -109,7 +109,7 @@ export const education = [
     title: "MSc ETH Biology",
     duration: "2020 - 2022",
     subtitle: "Institute of Systems Biology, ETH Zürich",
-    details: ["5.74 / 6 GPA", 'Master Thesis: Proteomic analysis of heat-stress in a cold-adapted bacterium',
+    details: ['Master Thesis: Proteomic analysis of heat-stress in a cold-adapted bacterium',
       'Research project I: Evaluation of 16S rRNA gene reconstruction after PCR amplification',
       'Research project II: Effect of ATP on proteome-wide thermal stability'
     ],
@@ -127,7 +127,7 @@ export const education = [
     title: "BSc ETH Biology",
     duration: "2016 - 2020",
     subtitle: "Department of Biology, ETH Zürich",
-    details: ["5.56 / 6 GPA"],
+    details: [],
     tags: [],
     icon: "book",
   },
