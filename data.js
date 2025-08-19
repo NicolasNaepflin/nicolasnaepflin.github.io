@@ -41,10 +41,10 @@ export const projects = {
   webProjects: [
     {
       projectName: "pangenome_paper",
-      image: "images/pangenome_paper.png",
+      image: "images/pangenome_paper_v2.png",
       summary:
-        `<u>Nicolas Näpflin</u>*, Christopher Schubert* et al. <span class="cursive-text">bioRxiv</span> (2025)`,
-      preview: "https://doi.org/10.1101/2025.02.12.637621",
+        `<u>Nicolas Näpflin</u>*, Christopher Schubert* et al. <span class="cursive-text">Communications Biology</span> (2025)`,
+      preview: "https://doi.org/10.1038/s42003-025-08640-5",
       techStack: ["pan-genome", "nutrient exploitation",],
     },
   ],
