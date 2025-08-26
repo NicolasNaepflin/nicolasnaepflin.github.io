@@ -56,7 +56,17 @@ export const projects = {
         `Christopher Schubert, Bidong D. Nguyen, Andreas Sichert, <u>Nicolas Näpflin</u>, et al. <span class="cursive-text" style="margin-bottom: 0px">Nature Communication</span> (2025)`,
       preview: "https://doi.org/10.1038/s41467-025-56890-y",
       techStack: ["bacterial infection", "bacteriology","pathogens"],
-    },
+    }
+  ],
+  lclrProjects: [
+    {
+      projectName: "lclr_project",
+      image: "images/lclr_paper.png",
+      summary:
+        `Thea B. Andersen, <u>Nicolas Näpflin</u>, et al. <span class="cursive-text" style="margin-bottom: 0px">Journal of Bacteriology</span> (2025)`,
+      preview: "https://doi.org/10.1128/jb.00054-25",
+      techStack: ["microbial pathogenesis", "metabolism","gene regulation", "microbiota"],
+    }
   ],
   androidProjects: [
     {
