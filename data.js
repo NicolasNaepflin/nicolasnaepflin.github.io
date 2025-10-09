@@ -160,6 +160,10 @@ export const footer = [
         link: "https://bsky.app/profile/nicolasnaepflin.bsky.social",
       },
       {
+        text: "linkedin",
+        link: "https://www.linkedin.com/in/nicolas-näpflin-7b9942375",
+      },
+      {
         text: "github/nicolasnaepflin",
         link: "https://github.com/NicolasNaepflin",
       },
