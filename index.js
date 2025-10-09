@@ -252,7 +252,13 @@ function populateExp_Edu(items, id) {
         link.textContent = detail; // Text of the link
         pTimelineText.appendChild(link);
       } else {
-        pTimelineText.innerHTML = "&blacksquare; " + detail; // Treat as regular text
+        if (!detail.startsWith("<")) {
+          pTimelineText.innerHTML = "&blacksquare; " + detail;
+        }
+        else {
+          pTimelineText.innerHTML = detail; // Treat as regular text
+        }
+        
       }
     
       divTimelineLabel.append(pTimelineText);

@@ -97,7 +97,7 @@ export const experience = [
     title: "Marroni map of Zürich",
     duration: "2024",
     subtitle: "Map showing all public chestnut (swiss-german: Marroni) trees in Zürich",
-    details: ["https://tree-app-j2xo9.ondigitalocean.app/"],
+    details: ['<a href="https://tree-app-j2xo9.ondigitalocean.app/" target="_blank">Visit map</a>'],
     preview: "https://maroni-karte.netlify.app/",
     tags: [],
     icon: "tree ",
