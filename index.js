@@ -9,7 +9,7 @@ import {
 
 import { URLs } from './user-data/urls.js';
 
-const { webProjects, softwareProjects, lclrProjects, androidProjects, freelanceProjects } =
+const { panProject, monosacchProjects, lclrProjects, microbeatlasProject, metadataProject, startcodonProject, proteomicsProject } =
   projects;
 const { medium, gitConnected } = URLs;
 
@@ -386,11 +386,13 @@ populateSkills(skills, "skills");
 fetchBlogsFromMedium(medium);
 fetchGitConnectedData(gitConnected);
 
-populateProjects(webProjects, "web-projects");
-populateProjects(softwareProjects, "software-projects");
+populateProjects(panProject, "pan-projects");
+populateProjects(monosacchProjects, "monosacch-projects");
 populateProjects(lclrProjects, "lclr-projects");
-populateProjects(androidProjects, "android-projects");
-populateProjects(freelanceProjects, "freelance-projects");
+populateProjects(microbeatlasProject, "mapdb-projects");
+populateProjects(metadataProject, "metadata-project");
+populateProjects(startcodonProject, "startcodon-projects");
+populateProjects(proteomicsProject, "proteomics-projects");
 
 populateExp_Edu(experience, "experience");
 populateExp_Edu(education, "education");

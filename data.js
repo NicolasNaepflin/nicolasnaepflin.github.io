@@ -38,7 +38,7 @@ export const skills = [
 ];
 
 export const projects = {
-  webProjects: [
+  panProject: [
     {
       projectName: "pangenome_paper",
       image: "images/pangenome_paper_v2.png",
@@ -48,7 +48,7 @@ export const projects = {
       techStack: ["pan-genome", "nutrient exploitation",],
     },
   ],
-  softwareProjects: [
+  monosacchProjects: [
     {
       projectName: "monosacaccharide_paper",
       image: "images/monosaccharide_paper.png",
@@ -56,6 +56,26 @@ export const projects = {
         `Christopher Schubert, Bidong D. Nguyen, Andreas Sichert, <u>Nicolas Näpflin</u>, et al. <span class="cursive-text" style="margin-bottom: 0px">Nature Communication</span> (2025)`,
       preview: "https://doi.org/10.1038/s41467-025-56890-y",
       techStack: ["bacterial infection", "bacteriology","pathogens"],
+    }
+  ],
+  microbeatlasProject: [
+    {
+      projectName: "mapdb_project",
+      image: "images/mapdb_paper.png",
+      summary:
+        ``,
+      preview: "https://doi.org/10.1101/2025.07.18.665519",
+      techStack: ["microbial ecology", "global microbiome structure","biogeography", "SSU rRNA marker gene"],
+    }
+  ],
+  metadataProject: [
+    {
+      projectName: "metadata_project",
+      image: "images/metadata_paper.png",
+      summary:
+        ``,
+      preview: "https://doi.org/10.1101/2025.04.24.650461",
+      techStack: ["text mining", "large language models","metadata parsing"],
     }
   ],
   lclrProjects: [
@@ -68,7 +88,7 @@ export const projects = {
       techStack: ["microbial pathogenesis", "metabolism","gene regulation", "microbiota"],
     }
   ],
-  androidProjects: [
+  startcodonProject: [
     {
       projectName: "startcodon_paper",
       image: "images/startcodon_paper.png",
@@ -79,7 +99,7 @@ export const projects = {
       techStack: ["bacterial physiology", "microbial communities"],
     },
   ],
-  freelanceProjects: [
+  proteomicsProject: [
     {
       projectName: "osmolyte_paper",
       image: "images/osmolyte_paper.png",
