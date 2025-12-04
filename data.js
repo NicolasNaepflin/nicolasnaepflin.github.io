@@ -147,10 +147,10 @@ export const footer = [
   {
     label: "Links",
     data: [
-      {
-        text: "Mail",
-        link: "mailto:naepflin.nicolas@gmail.com",
-      },
+      // {
+      //   text: "Mail",
+      //   link: "mailto:naepflin.nicolas@gmail.com",
+      // },
       {
         text: "ORCID",
         link: "https://orcid.org/0000-0001-6845-7400",
