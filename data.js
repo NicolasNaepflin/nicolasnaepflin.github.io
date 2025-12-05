@@ -135,7 +135,7 @@ export const experience = [
     details: ['<a href="https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Molecular_Biology/Computational_Biology/15th_ISCB_Student_Wikipedia_competition_announcement" target="_blank">More information</a>'],
     preview: "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Molecular_Biology/Computational_Biology/15th_ISCB_Student_Wikipedia_competition_announcement",
     tags: [],
-    icon: "wikipedia-w ",
+    icon: "w ",
   },
   {
     title: "Co-founder and president of VBC Allset",
