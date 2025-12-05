@@ -1,6 +1,12 @@
 export const bio = [
-  "Hello! I'm Nicolas Näpflin - a PhD student at the University of Zurich exploring the microbiome through data science. I am especially interested in metagenomics, comparative genomics and microbial ecology.",
-  "Outside the lab, I enjoy running, playing volleyball and boardgames.",
+  // "Hello! I'm Nicolas Näpflin - a PhD student at the University of Zurich exploring the microbiome through data science. I am especially interested in metagenomics, comparative genomics and microbial ecology.",
+  // "Outside the lab, I enjoy running, playing volleyball and boardgames.",
+  "Hello! I'm Nicolas Näpflin - a Bioinformatic researcher with experience in in large-scale genomics and multi-omics data analysis projects. \
+  I am specialized in comparative genomics, NGS data processing and bioinformatic workflow management. \
+  I have experience in handling large datasets, collaborating with interdisciplinary teams and communicating results to scientific and non-specialist audiences",
+  "Outside the lab, I enjoy playing volleyball, running and boardgames.",
+
+
   "Thanks for visiting!"
 ];
 
@@ -11,24 +17,24 @@ export const skills = [
     color: "1",
     percentage: "80",
   },
-  {
-    title: "Languages",
-    skillName: "R",
-    color: "2",
-    percentage: "85",
-  },
-  {
-    title: "Frameworks/Libraries",
-    skillName: "Bash",
-    color: "3",
-    percentage: "80",
-  },
-  {
-    title: "Design",
-    skillName: "Rust",
-    color: "4",
-    percentage: "10",
-  },
+  // {
+  //   title: "Languages",
+  //   skillName: "R",
+  //   color: "2",
+  //   percentage: "85",
+  // },
+  // {
+  //   title: "Frameworks/Libraries",
+  //   skillName: "Bash",
+  //   color: "3",
+  //   percentage: "80",
+  // },
+  // {
+  //   title: "Design",
+  //   skillName: "Rust",
+  //   color: "4",
+  //   percentage: "10",
+  // },
   // {
   //   title: "template_title",
   //   skillName: "template_skillName",
@@ -122,6 +128,24 @@ export const experience = [
     tags: [],
     icon: "tree ",
   },
+  {
+    title: "Molecular Biology/ Computational Biology Wikipedia competition",
+    duration: "since 2024",
+    subtitle: "Co-chairing ISCB's Molecular Biology/ Computational Biology Wikipedia competition aiming to improve Wikipedia's coverage of any topic relating to ISCB's Bioinformatics Core Competencies.",
+    details: ['<a href="https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Molecular_Biology/Computational_Biology/15th_ISCB_Student_Wikipedia_competition_announcement" target="_blank">More information</a>'],
+    preview: "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Molecular_Biology/Computational_Biology/15th_ISCB_Student_Wikipedia_competition_announcement",
+    tags: [],
+    icon: "wikipedia-w ",
+  },
+  {
+    title: "Co-founder and president of VBC Allset",
+    duration: "05/2023 - present",
+    subtitle: "Co-founded and elected president of a Zurich-based volleyball club that brings together young adults who share a passion for the sport.",
+    preview: "",
+    details: "",
+    tags: [],
+    icon: "volleyball ",
+  }
 ];
 
 export const education = [
