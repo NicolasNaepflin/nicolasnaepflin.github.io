@@ -80,7 +80,7 @@ export const projects = {
       image: "images/metadata_paper.png",
       summary:
         ``,
-      preview: "https://doi.org/10.1101/2025.04.24.650461",
+      preview: "https://doi.org/10.1093/gigascience/giag015",
       techStack: ["text mining", "large language models","metadata parsing"],
     }
   ],
