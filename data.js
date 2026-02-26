@@ -82,7 +82,7 @@ export const projects = {
       image: "images/mapdb_paper.png",
       summary:
         ``,
-      preview: "https://doi.org/10.1101/2025.07.18.665519",
+      preview: "https://doi.org/10.1016/j.cell.2026.01.021",
       techStack: ["microbial ecology", "global microbiome structure","biogeography", "SSU rRNA marker gene"],
     }
   ],
