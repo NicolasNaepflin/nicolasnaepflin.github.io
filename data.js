@@ -79,9 +79,9 @@ export const projects = {
   microbeatlasProject: [
     {
       projectName: "mapdb_project",
-      image: "images/mapdb_paper.png",
+      image: "images/mapdb_paper_2.jpg",
       summary:
-        ``,
+        `J. Rodrigues, J. Tackmann, L. Malfertheiner, D. Patsch, E. Perez, <u>N. Näpflin</u>, et al.<br> <span class="cursive-text" style="margin-bottom: 0px">Cell</span> (2026)`,
       preview: "https://doi.org/10.1016/j.cell.2026.01.021",
       techStack: ["microbial ecology", "global microbiome structure","biogeography", "SSU rRNA marker gene"],
     }
@@ -91,7 +91,7 @@ export const projects = {
       projectName: "metadata_project",
       image: "images/metadata_paper.png",
       summary:
-        ``,
+        `D. Gaio, J. Tackmann, E. Perez, <u>N. Näpflin</u>, et al.<br> <span class="cursive-text" style="margin-bottom: 0px">GigaScience</span> (2026)`,
       preview: "https://doi.org/10.1093/gigascience/giag015",
       techStack: ["text mining", "large language models","metadata parsing"],
     }
