@@ -6,7 +6,7 @@ import {
   workExperience,
   experience,
   footer,
-} from "./data.js";
+} from "./data.js?v=20260923-1";
 
 import { URLs } from './user-data/urls.js';
 
@@ -287,7 +287,8 @@ function populateExp_Edu(items, id) {
     divTimelineEntryInner.append(divTimelineLabel);
 
     let article = document.createElement("article");
-    article.className = "timeline-entry animate-box";
+    // Keep generated content visible even if scroll animations do not initialize.
+    article.className = "timeline-entry";
     article.append(divTimelineEntryInner);
 
     mainContainer.append(article);
@@ -301,7 +302,7 @@ function populateExp_Edu(items, id) {
   divTimelineEntryInner.append(divTimelineIcon);
 
   let article = document.createElement("article");
-  article.className = "timeline-entry begin animate-box";
+  article.className = "timeline-entry begin";
   article.append(divTimelineEntryInner);
 
   mainContainer.append(article);
