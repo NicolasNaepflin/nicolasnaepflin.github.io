@@ -160,11 +160,33 @@ export const experience = [
   }
 ];
 
+export const workExperience = [
+  {
+    title: "Bioinformatician",
+    subtitle: "Institute of Microbiology, ETH Zürich",
+    duration: "2026 - present",
+    details: [
+      'Analyse, integrate and visualise multi-omics data across collaborative microbiome research projects',
+      'Develop and maintain reproducible bioinformatics workflows and support research data management',
+      'Advise and train researchers in bioinformatics, study design and data interpretation',
+    ],
+    tags: [
+      'Microbiome research',
+      'Multi-omics',
+      'Metagenomics',
+      'Reproducible workflows',
+      'Research data management',
+      'Bioinformatics training',
+    ],
+    icon: "briefcase",
+  },
+];
+
 export const education = [
   { 
-    title: "Currently: PhD student",
+    title: "PhD in Systems Biology",
     subtitle: "Institute of Molecular Life Sciences, University of Zürich",
-    duration: "2023 - Present",
+    duration: "2023 - 2026",
     details: ['Understanding shared functional traits of Enterobacteriaceae',
       'Exploring dynamics and mechanisms underlying the response of ESKAPE pathogens to antibiotics',
       'Collaborated with microbiologists, clinicians, and computational scientists on diverse interdisciplinary microbiome research projects'

@@ -3,6 +3,7 @@ import {
   skills,
   projects,
   education,
+  workExperience,
   experience,
   footer,
 } from "./data.js";
@@ -396,5 +397,6 @@ populateProjects(proteomicsProject, "proteomics-projects");
 
 populateExp_Edu(experience, "experience");
 populateExp_Edu(education, "education");
+populateExp_Edu(workExperience, "work-experience");
 
 populateLinks(footer, "footer");
